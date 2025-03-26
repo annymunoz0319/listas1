@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body> 
+<h1>Listas... ordenadas, con viñetas, anidadas.</h1>
+<p> Aprendamos a hacer <a target="_blank" href="https://www.manualweb.net/html/listas-html/"> listas</a>. Para incluir los <i>emojis y símbolos</i>, podéis buscarlos en <a target="_blank" href="https://www.w3schools.com/charsets/"> w3schools.</a> <br>
+Esta página contiene algunos estilos css que ya veremos en su oportunidad.</p>
+<h2>Listas Ordenadas &lt;ol&gt; </h2>
+<h3>&#127760; Las páginas web más utilizadas</h3>
+<ol>
+    <li>Google</li>
+    <li>Youtube</li>
+    <li>Facebook</li>
+    <li>Twitter</li>
+    <li>Instagram</li>
+    <li>Baidu</li>
+    <li>AliExpress</li>
+    <li>Wikipedia</li>
+    <li>Yahoo</li>
+    <li>XVideos</li>
+</ol>
+<p>
+<h3> &#127909; Series mejor valoradas de todos los tiempos en orden inverso según <cite>Sensacine.com</cite></h3>
+</p>
+
+<ol reversed>
+    <li>Dragon Ball Z </li>
+    <li>Love is in the air</li>
+    <li>Hermanos de Sangre</li>
+    <li>Los Simpson</li>
+    <li>Vikingos</li>
+    <li>Chernobyl</li>
+    <li>Peaky Blinders</li>
+    <li>Los Soprano</li>
+    <li>Juego de Tronos</li>
+    <li>Breaking Bad</li>
+</ol>
+<h2>Los doce signos de zodíaco</h2>
+<ol type="I">
+    <li>&#9800; Aries</li>
+    <li>&#9801; Tauro</li>
+    <li>&#9802; Geminis</li>
+    <li>&#9803; Cancer</li>
+    <li>&#9804; Leo</li>
+    <li>&#9805; Virgo</li>
+    <li>&#9806; Libra</li>
+    <li>&#9807; Scorpio</li>
+    <li>&#9808; Sagitario</li>
+    <li>&#9809; Capricornio</li>
+    <li>&#9810; Acuario</li>
+    <li>&#9811; piscis</li>
+</ol>
+<p>Otros tipos de listas <b>ordenadas</b> se pueden lograr con los siguientes atributos: <code>"type="A"</code> para crear listas ordenadas con letras mayúsculas, <code>type="a"</code> con letras minúsculas y type="i" con números romanos en minúsculas. Ejemplo:</p>
+<p>Las mascotas más comunes son:</p>   
+    <ol type="a">
+    <li>&#128054; Perros</li>
+    <li>&#128008; Gatos</li>
+    <li>&#128057; Hamsters <em>y otros roedores como cobayas y conejos &#128007;</em></li>
+   </ol>
+<br>
+<br>
+<hr>
+<h2>Listas Desordenadas &lt;ul&gt;</h2>   
+<p>Las listas <b>desordenadas</b> (o listas con viñetas) son llamadas de esta forma, por que no se numeran. Al crearlas, se añade a la izquierda, un <i>circulo negro</i> <code>type= "disc"</code>, a menos que se cambien en el atributo tipo a: <code>type="circle</code>": <i>circulo</i> &#128280;, <code>type="square"</code>: <i>cuadrado </i>&#128307; o <code>type="none"</code> para eliminar los símbolos. El resto de estilos se definen en CSS. Ejemplo:</p>
+<h2>Tres cosas hay en la vida...</h2>
+<ul type="disc">
+<li>&#127947; Salud</li>
+<li>&#128184; Dinero</li>
+<li>&#129505; Amor</li>
+</ul>
+<br>
+<br>
+<hr>
+<h2>Listas Anidadas</h2>
+<p>Se pueden incluir listas dentro de otras listas. De esta manera se crean listas anidadas. <br></p>
+<details>
+    <summary style="background-color: #709ef3"><b style="color: white;"><i>Clic</i> para ver el código de cómo hacer una lista anidada</b></summary>
+    <img src="./img/lista.png" alt="foto">
+</details>
+
+<h2>Comunidades Autonómas de España y sus provincias...</h2>
+
+<ul type="circle"> 
+  <li>
+      <strong>Cataluña</strong>
+      <ol>
+        <li>Barcelona </li>
+        <li>Tarragona </li>
+        <li>Girona </li>
+        <li>Lleida </li>
+      </ol>
+  </li>
+  <li>
+    <strong>Aragón</strong>
+    <ol>
+       <li>Zaragoza</li>
+       <li>Huesca</li>
+       <li>Teruel</li>
+     </ol>
+    </li>
+</ul>
+<br>
+<hr>
+<p>Para hacer el desplegable anterior se utiliza la combinación <code>&lt;details&gt;-&lt;summary&gt; </code>de la siguiente manera:</p>
+        <p>&lt;details&gt;<br>
+                &lt;summary&gt;Título del Desplegable &lt;summary&gt;<br>
+                    Contenido del desplegable <br>
+           &lt;details&gt; </p>
+<p>Los colores y bordes están puestos con css.</p>
+</body>
+</html>
